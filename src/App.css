@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+.main{
+  display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 100px;
 }
+.banner{
+  display: block;
+  margin:32px auto;
+  width:100%;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.news-image{
+  width:100%;
+  height:50%;
 }
+.grid-main{
+  display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:30px;
+    margin-top:50px;
+}
+.grid-title{
+  border:1px solid #e0e0e0;
+  padding:5%;
+  margin: 20px 0px 20px 0px;
+}
+.grid-title:hover{
+  transform: scale(1.02);
+  transition:0.5s;
+}
+.news-title{
+  font-size: 25px;
+  font-weight: 500;
+}
+.news-content{
+  font-size: 14px;
+}
+.news-author{
+  font-size:14px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.news-date{
+  font-size: 14px;
+  font-weight: 500;
+}
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}
+.select{
+  margin: 30px 0px 30px 0px;
+
+  display:flex;
+  gap:30px;
+}
+.top{
+  display: flex;
+  gap:500px;
+  justify-content: space-between;
+  
+}
+.select-box{
+  height:35px;
+  width:150px;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:40vh;
+  background:radial-gradient(darkblue,black);
+  width:100%;
+  margin:32px auto;
+}
+.footer-heading{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.footer h1{
+  color:white;
+  font-weight: 800;
+  font-size:50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footer p{
+  margin-top: 0px;
+  color:white;
+  font-weight: 500;
+  font-size:20px;
+}
+.heading h1{
+  font-size:50px;
+}
+@media(max-width:800px){
+   .grid-main{
+     display: grid;
+     grid-template-columns: 1fr;
+   }
+   .news-title{
+    font-size: 20px;
+    font-weight: 600;
   }
-  to {
-    transform: rotate(360deg);
+  .news-content{
+    font-size: 12px;
+  }
+  .news-author{
+    font-size:12px;
+  
+  }
+  .news-date{
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .footer h1{
+    color:white;
+    font-weight: 800;
+    font-size:30px;
+  }
+  .footer p{
+    margin-top: 0px;
+    color:white;
+    font-weight: 500;
+    font-size:13px;
+  }
+  .heading h1{
+    font-size: 20px;
   }
 }
