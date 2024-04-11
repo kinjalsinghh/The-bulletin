@@ -6,7 +6,7 @@ function GetNews(category){
     return axios.get(URL)
           .catch((error)=>{
             if(error.message==="Request failed with status code 426"){
-                return <div>Disclaimer:The api only works on localhost in case of developer plan for deployment we needed a paid version</div>
+                console.log("Disclaimer:The api only works on localhost in case of developer plan for deployment we needs a paid version.")
             }
         })
 
