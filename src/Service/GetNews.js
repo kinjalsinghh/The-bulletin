@@ -4,7 +4,7 @@ function GetNews(category){
     const API_ENDPOINT=`https://newsapi.org/v2/top-headlines?country=in&category=${category}`
 
        return axios.get(`${API_ENDPOINT}&apiKey=${API_Key}`).catch((err)=>{
-      <h1>Error</h1>
+      console.log("Error");
     })
 
 }
