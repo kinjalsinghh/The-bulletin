@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/the-bulletin/static/css/main.f5a6a543.css",
+    "main.js": "/the-bulletin/static/js/main.aabd4c03.js",
+    "static/js/453.08c78f33.chunk.js": "/the-bulletin/static/js/453.08c78f33.chunk.js",
+    "static/media/banner.png": "/the-bulletin/static/media/banner.659c673cf08f86d10b67.png",
+    "static/media/logo.svg": "/the-bulletin/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/the-bulletin/index.html",
+    "main.f5a6a543.css.map": "/the-bulletin/static/css/main.f5a6a543.css.map",
+    "main.aabd4c03.js.map": "/the-bulletin/static/js/main.aabd4c03.js.map",
+    "453.08c78f33.chunk.js.map": "/the-bulletin/static/js/453.08c78f33.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5a6a543.css",
+    "static/js/main.aabd4c03.js"
+  ]
+}
