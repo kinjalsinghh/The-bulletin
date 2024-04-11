@@ -5,7 +5,7 @@ function GetNews(category){
      const URL=`${API_ENDPOINT}&apiKey=${API_Key}`
     return axios.get(URL)
           .catch((error)=>{
-            if(error.message==="Request failed with status code 426"){
+            if(error.response.status===426){
                 console.log("Disclaimer:The api only works on localhost in case of developer plan, for deployment we needs a paid version.")
             }
         })
